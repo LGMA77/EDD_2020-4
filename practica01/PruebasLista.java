@@ -2,7 +2,6 @@ import java.util.Arrays;
 import java.util.NoSuchElementException;
 /**
  * Clase para probar los metodos de Lista
- * @author Luis Manuel Martinez Damaso <luismanuel@ciencias.unam.mx>
  */
 public class PruebasLista{
 

@@ -5,8 +5,6 @@ import java.util.NoSuchElementException;
  * <p> Clase concreta para modelar la estructura de datos Lista</p>
  * <p>Esta clase implementa una Lista genérica, es decir que es homogénea pero
  * puede tener elementos de cualquier tipo.
- * @author Luis Manuel Martinez Damaso <luismanuel@ciencias.unam.mx>
- * @version 1.0
  * @param <T>
  */
 public class Lista<T> implements Listable<T>{

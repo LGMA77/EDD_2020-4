@@ -3,8 +3,6 @@ import java.util.NoSuchElementException;
 /**
  * <p> Interfaz para listas </p> <p>Esta clase contiene las
  * operaciones elementales que debe tener el TAD Lista </p>
- * @author Luis Manuel Martinez Damaso <luismanuel@ciencias.unam.mx>
- * @version 1.0
  * @param <T>
  */
 public interface Listable<T> extends Coleccionable<T>{
