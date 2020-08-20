@@ -1,5 +1,3 @@
-package practica01;
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -265,7 +263,10 @@ public class Lista<T> implements Listable<T>{
     public void eliminarPrimero() throws NoSuchElementException {
 
     	if(this.esVacia() == true){throw new NoSuchElementException();}
-        if(this.longitud == 1){this.vaciar();}
+        if(this.longitud == 1){
+            this.vaciar();
+            return;
+        }
 
         //Nodo aux = this.cabeza.siguiente;
 
@@ -337,7 +338,7 @@ public class Lista<T> implements Listable<T>{
         
         if(i > this.longitud-1 || i< 0){
             throw new IndexOutOfBoundsException();
-        }
+        }else if(this.esVacia()){throw new NoSuchElementException();}
 
         Nodo aux = this.cabeza;
         int index = 0;
